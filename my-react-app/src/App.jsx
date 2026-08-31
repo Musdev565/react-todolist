@@ -1,13 +1,14 @@
- import Task from './components/Task'
 import './App.css'
+import Tasksform from './components/TasksForm'
 
 function App() {
-
   return (
-    <>
-      <h1>Todo app</h1>
-      <Task />
-    </>
+    <div className="app-shell">
+      <div className="app-card">
+        <h1>Todo app</h1>
+        <Tasksform />
+      </div>
+    </div>
   )
 }
 
